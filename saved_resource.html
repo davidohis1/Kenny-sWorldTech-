@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Kenny'S World Tech</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="./css" rel="stylesheet">
+<link rel="stylesheet" href="./animate.css">
+<link rel="stylesheet" href="./owl.carousel.min.css">
+<link rel="stylesheet" href="./jquery.fancybox.min.css">
+<link rel="stylesheet" href="./ionicons.min.css">
+<link rel="stylesheet" href="./font-awesome.min.css">
+<link rel="stylesheet" href="./flaticon.css">
+<link rel="stylesheet" href="./aos.css">
+<link rel="stylesheet" href="./simple-line-icons.css">
+
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style(1).css">
+<style id="eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-style">
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-modal {
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* The Modal (background) */
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-modal-2 {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  padding-top: 5%; /* Location of the box */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Help Icon Styles */
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-bsr-help-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  margin: 5px;
+  line-height: 1.2;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-circle-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  margin: 5px;
+  line-height: 1.2;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-show {
+  display: block;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-hide {
+  display: none;
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-close-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  line-height: 1.2;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-close-icon:hover {
+  background-color: #e32b2b;
+  color: white;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-kdplogoword {
+  background-image: linear-gradient(270.09deg, #6b49fc -13.64%, #de85ff 86.14%, #e26ff1 106.56%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-bsr-td {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-align: left;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-main-table {
+  height: 170px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-top-box {
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 2px solid rgb(222, 133, 255);
+  border-bottom: 1px solid rgb(222, 133, 255);
+  width: 99%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-bottom-box {
+  display: flex;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid rgb(222, 133, 255);
+  border-top: 1px solid rgb(222, 133, 255);
+  width: 99%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-inner-box {
+  display: flex;
+  border: 2px solid rgb(222, 133, 255);
+  border-bottom: 1px solid rgb(222, 133, 255);
+  border-top: 1px solid rgb(222, 133, 255);
+  width: 99%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-left-box {
+  width: 80px;
+  border-right: 2px solid rgb(222, 133, 255);
+  margin: 0px 6px 0px 6px;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card {
+  perspective: 600px;
+  position: relative;
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-is-switched .eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card__wrapper {
+  animation: eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-rotate 0.5s linear both;
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card__wrapper {
+  transform-style: preserve-3d;
+  animation: eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-rotate-inverse 0.5s linear both;
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card__side {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card__side.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-is-active {
+  position: static;
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card__side--back {
+  transform: rotateY(180deg);
+}
+@keyframes eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-rotate {
+  0% {
+    transform: rotateY(0);
+  }
+  70% {
+    transform: rotateY(200deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-rotate-inverse {
+  0% {
+    transform: rotateY(180deg);
+  }
+  70% {
+    transform: rotateY(-20deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card {
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card__side {
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-card__side--back {
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-text-btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-tooltip .eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-tooltiptext {
+  visibility: hidden;
+  min-width: max-content;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-tooltip:hover .eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-tooltiptext {
+  visibility: visible;
+}
+
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-text-btn {
+  border: none;
+  background-color: inherit;
+  margin: 0 8px;
+  padding: 0;
+  font-size: 16px;
+  font-wight: 600;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: underline;
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-text-btn:hover {
+  background-image: linear-gradient( 270.09deg, #6b49fc -13.64%, #de85ff 86.14%, #e26ff1 106.56% );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+}
+.eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-text-btn.active {
+  background-image: linear-gradient( 270.09deg, #6b49fc -13.64%, #de85ff 86.14%, #e26ff1 106.56% );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+}
+
+
+
+/* Safari */
+@-webkit-keyframes eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+        .eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-loader { 
+            border: 16px solid #f3f3f3; 
+            /* Light grey */ 
+            border-top: 16px solid #6b49fc; 
+            /* Dark Green */ 
+            border-radius: 50%; 
+            width: 200px; 
+            height: 200px; 
+            animation: eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-spinloader 2s linear infinite; 
+        } 
+  
+        .eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-loader img { 
+            padding: 20px;
+            animation: eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-spinlogo 2s linear infinite; 
+        } 
+  
+        @keyframes eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-spinloader { 
+            0% { 
+                transform: rotate(0deg); 
+            } 
+  
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+  
+        @keyframes eefljgmhgaidffapnppcmmafobefjece-f03a759b-2eb5-4b34-8cd2-fd2cdb80418f-spinlogo { 
+            0% { 
+                transform: rotate(360deg); 
+            } 
+  
+            100% { 
+                transform: rotate(0deg); 
+            } 
+        }
+
+</style></head>
+<body data-aos-easing="slide-up" data-aos-duration="800" data-aos-delay="0" data-titans-quick-view-extension-id="eefljgmhgaidffapnppcmmafobefjece">
+<header role="banner">
+<nav class="navbar navbar-expand-lg  bg-dark">
+<div class="container-fluid">
+<a class="navbar-brand " href="#index">Kenny'$</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarsExample05">
+<ul class="navbar-nav pl-md-5 ml-auto">
+<li class="nav-item">
+<a class="nav-link active" href="#index">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link" href="#services">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#portfolio">Projects</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+
+<div class="slider-item overlay" data-stellar-background-ratio="0.5" style="background-image: url(&quot;p2.png&quot;); background-size: cover;">
+<div class="container">
+<div class="row slider-text align-items-center justify-content-center">
+<div class="col-lg-12 text-center col-sm-12">
+<h1 class="mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">Kenny's World Tech<br> we repair and sell</h1>
+</div>
+</div>
+</div>
+</div>
+<div class="section">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 mb-4">
+<div class="service text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="">
+<span><img src="smartphone-call.png" width="40px" alt=""></span>
+<h3>Phone Repair</h3>
+<p>At Kenny World Tech, we specialize in repairing phones quickly and affordably. Our skilled technicians fix cracked screens, water damage, and more. With exceptional service and competitive pricing, trust us to get your device back in your hands fast. Visit us today and experience the difference!</p>
+</div>
+</div>
+<div class="col-lg-4 mb-4">
+<div class="service text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+<span><img src="book.png" width="40px" alt=""></span>
+<h3>Phone Sale</h3>
+<p>Discover the perfect phone at Kenny World Tech. From top-of-the-line models to budget-friendly options, our experts are here to help you find the ideal fit. With competitive pricing and exceptional service, upgrading has never been easier. Experience the difference today!.</p>
+</div>
+</div>
+<div class="col-lg-4 mb-4">
+<div class="service text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+<span><img src="lock.png" width="40px" alt=""></span>
+<h3 >Phone Unlock</h3>
+<p>Unlock Your Phone with Kenny World Tech. Get the freedom you deserve with our quick and reliable phone unlocking services. Whether you're switching carriers or traveling abroad, trust Kenny World Tech to unlock your device securely. Visit us today and unlock your phone hassle-free!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section portfolio-section">
+<div class="container">
+<div class="row mb-5 justify-content-center aos-init aos-animate" data-aos="fade-up">
+<div class="col-md-8 text-center">
+<h2 class="mb-4 section-title">Selected Work</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis accusamus perferendis
+libero accusantium nisi.</p>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row mb-5 no-gutters">
+<div class="col-sm-6 col-md-6 col-lg-6 aos-init aos-animate" data-aos="fade" data-aos-delay="100">
+<a href="#portfolio-single" class="work-thumb">
+<div class="work-text">
+<h2>Project Name Here</h2>
+<p>Business</p>
+</div>
+<img src="./p1.webp" alt="Image" class="img-fluid">
+</a>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-6 aos-init aos-animate" data-aos="fade" data-aos-delay="200">
+<a href="#portfolio-single" class="work-thumb">
+<div class="work-text">
+<h2>Project Name Here</h2>
+<p>Design</p>
+</div>
+<img src="./p2.png" alt="Image" class="img-fluid">
+</a>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-6 aos-init aos-animate" data-aos="fade" data-aos-delay="300">
+<a href="#portfolio-single" class="work-thumb">
+<div class="work-text">
+<h2>Project Name Here</h2>
+<p>Business</p>
+</div>
+<img src="./p4.jpg" alt="Image" class="img-fluid">
+</a>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-6 aos-init aos-animate" data-aos="fade" data-aos-delay="400">
+<a href="#portfolio-single" class="work-thumb">
+<div class="work-text">
+<h2>Project Name Here</h2>
+<p>Business</p>
+</div>
+<img src="./p3.jpeg" alt="Image" class="img-fluid">
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="section bg-light block-11">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 aos-init" data-aos="fade-up" data-aos-delay="100">
+    <div class="block-47 d-flex mb-5">
+    <div class="block-47-image">
+    <img src="./person_1.jpg" alt="Image placeholder" class="img-fluid">
+    </div>
+    <blockquote class="block-47-quote">
+    <p>"David Ohis exceeded our expectations as a PHP web developer. Their expertise ensured a flawless website, and their dedication made the collaboration seamless. Highly recommended!”</p>
+    <cite class="block-47-quote-author">— Jeremiah Augustine, <a href="#">Student -UNIBEN</a></cite>
+    </blockquote>
+    </div>
+    </div>
+    <div class="col-md-6 aos-init" data-aos="fade-up" data-aos-delay="200">
+    <div class="block-47 d-flex mb-5">
+    <div class="block-47-image">
+    <img src="./person_2.jpg" alt="Image placeholder" class="img-fluid">
+    </div>
+    <blockquote class="block-47-quote">
+    <p>“"David Ohis is an outstanding PHP web developer. Their attention to detail and expertise ensured our project's success. Professionalism and dedication shone through every step of the way. We're thrilled with the results!”</p>
+    <cite class="block-47-quote-author">—Atinuke Olamide <a href="#">Student -UNIBEN</a></cite>
+    </blockquote>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="section">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 ml-auto pl-lg-4 mb-5 order-2">
+<img src="./p2.png" alt="Image" class="img-fluid mb-5">
+<span class="d-block text-uppercase mt-5 text-primary">About US</span>
+<h2 class="mb-4 section-title">Creative We Grow</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id autem temporibus blanditiis accusamus perferendis libero accusantium nisi itaque tempore, harum aliquid aut, sapiente dolor tenetur.</p>
+<p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus.</p>
+<p><a href="##" class="btn btn-outline-black">Learn More</a></p>
+</div>
+<div class="col-lg-6 order-1">
+<figure class="img-dotted-bg">
+<img src="./p5.jpg" alt="Image" width="600px" class="img-fluid">
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-primary py-5">
+<div class="container text-center">
+<div class="row justify-content-center">
+<div class="col-lg-7">
+<h3 class="text-white mb-2 font-weight-normal">Get Started</h3>
+<p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<p class="mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"><a href="#contact" class="btn btn-outline-white px-4 py-3">Get In Touch!</a></p>
+</div>
+</div>
+</div>
+</div>
+<footer class="site-footer" role="contentinfo">
+<div class="container">
+<div class="row mb-5">
+<div class="col-md-4 mb-5">
+<h3 class="mb-4">About Us</h3>
+<p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nihil numquam aspernatur
+inventore sint eligendi nostrum!</p>
+</div>
+<div class="col-md-3 ml-auto">
+<h3 class="mb-4">Navigation</h3>
+<ul class="list-unstyled footer-link">
+<li><a href="##">About</a></li>
+<li><a href="##">Services</a></li>
+<li><a href="##">Portfolio</a></li>
+<li><a href="##">Contact</a></li>
+</ul>
+</div>
+<div class="col-md-3 mb-5">
+<ul class="list-unstyled footer-link d-flex footer-social">
+<li><a href="##" class="p-2"><span><img src="instagram (2).png" width="30px" alt=""></span></a></li>
+<li><a href="##" class="p-2"><span><img src="facebook (3).png" width="30px"alt=""></span></a></li>
+<li><a href="##" class="p-2"><span><img src="youtube.png" width="30px"alt=""></span></a></li>
+<li><a href="##" class="p-2"><span><img src="whatsapp (2).png" width="30px" alt=""></span></a></li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-12 text-md-center text-left">
+<p>
+Created By David Ohiwerei 09077526598
+</p>
+</div>
+</div>
+</div>
+</footer>
+
+
+<div id="loader" class="fullscreen"><svg class="circular" width="48px" height="48px">
+<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle>
+<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#ffc107"></circle></svg></div>
+<script src="./jquery-3.2.1.min.js.download"></script>
+<script src="./jquery-migrate-3.0.1.min.js.download"></script>
+<script src="./popper.min.js.download"></script>
+<script src="./bootstrap.min.js.download"></script>
+<script src="./owl.carousel.min.js.download"></script>
+<script src="./jquery.waypoints.min.js.download"></script>
+<script src="./jquery.fancybox.min.js.download"></script>
+<script src="./jquery.stellar.min.js.download"></script>
+<script src="./aos.js.download"></script>
+<script src="./main.js.download"></script>
+
+<script async="" src="./js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer="" src="./v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon="{&quot;rayId&quot;:&quot;859c03253f832411&quot;,&quot;version&quot;:&quot;2024.2.1&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;}" crossorigin="anonymous"></script>
+
+</body></html>
